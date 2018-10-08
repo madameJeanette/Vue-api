@@ -1,0 +1,29 @@
+{
+  "name": "vue",
+  "version": "1.0.0",
+  "description": "Full stack vue and express express app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madameJeanette/Vue-api.git"
+  },
+  "author": "Daniëlle Meerburg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madameJeanette/Vue-api/issues"
+  },
+  "homepage": "https://github.com/madameJeanette/Vue-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
